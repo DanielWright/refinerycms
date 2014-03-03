@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     refinerycms (0.9.9.4)
-      bundler (~> 1.0.10)
+      bundler (~> 1.0)
       refinerycms-authentication (~> 0.9.9.4)
       refinerycms-base (~> 0.9.9.4)
       refinerycms-core (~> 0.9.9.4)
@@ -135,8 +135,8 @@ GEM
       rake (>= 0.8.7)
     friendly_id_globalize3 (3.2.1)
       babosa (~> 0.2.1)
-    gherkin (2.3.3)
-      json (~> 1.4.6)
+    gherkin (2.3.7)
+      json (>= 1.4.6)
     globalize3 (0.1.0.beta)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
